@@ -12,3 +12,6 @@ wp-content/cache/
 wp-content/backups/
 sitemap.xml
 sitemap.xml.gz
+*.sql.gz
+*.sql
+wp-content/themes/left21webmaster/.sass-cache
