@@ -1,0 +1,284 @@
+# Limit Login Attempts German Translation
+# Copyright (C) 2009 Johan Eenfeldt
+# This file is distributed under the same license as the Wordpress package.
+# Johan Eenfeldt <johan.eenfeldt@kostdoktorn.se>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: limit-login-attempts 1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/limit-login-attempts\n"
+"POT-Creation-Date: 2009-01-28 17:17+0000\n"
+"PO-Revision-Date: 2013-04-12 14:37+0900\n"
+"Last-Translator: mytory <mytory@gmail.com>\n"
+"Language-Team: Catalan <rbuj@wanadoo.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ca_ES\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: limit-login-attempts.php:372
+#, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d 시간"
+msgstr[1] "%d 시간"
+
+#: limit-login-attempts.php:378
+#, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 분"
+msgstr[1] "%d 분"
+
+#: limit-login-attempts.php:381
+#, php-format
+msgid "[%s] Too many failed login attempts"
+msgstr "[%s] 로그인 실패가 지나치게 많습니다."
+
+#: limit-login-attempts.php:383
+#, php-format
+msgid "%d failed login attempts (%d lockout(s)) from IP: %s"
+msgstr "%d회 로그인 실패가 있었습니다. (%d회 로그인 잠금) 시도 아이피는 %s."
+
+#: limit-login-attempts.php:387
+#, php-format
+msgid "Last user attempted: %s"
+msgstr "로그인을 시도한 마지막 사용자: %s"
+
+#: limit-login-attempts.php:390
+#, php-format
+msgid "IP was blocked for %s"
+msgstr "다음 IP는 차단했습니다: %s"
+
+#: limit-login-attempts.php:445
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>ERROR</strong>: 로그인 실패가 지나치게 많습니다."
+
+#: limit-login-attempts.php:449
+msgid "Please try again later."
+msgstr "나중에 다시 로그인해 주세요."
+
+#: limit-login-attempts.php:456
+#, php-format
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] "%d시간 후 다시 로그인해 주세요."
+msgstr[1] "%d시간 후 다시 로그인해 주세요."
+
+#: limit-login-attempts.php:458
+#, php-format
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "%d분 후 다시 로그인해 주세요."
+msgstr[1] "%d분 후 다시 로그인해 주세요."
+
+#: limit-login-attempts.php:487
+#, php-format
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "로그인 잠금까지 <strong>%d</strong>회 남았습니다."
+msgstr[1] "로그인 시도 차단까지 <strong>%d</strong>회 남았습니다."
+
+#: limit-login-attempts.php:551
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr "<strong>ERROR</strong>: 아이디나 비밀번호가 틀렸습니다."
+
+#: limit-login-attempts.php:714
+msgid "IP|Internet address"
+msgstr "IP|인터넷 주소"
+
+#: limit-login-attempts.php:714
+msgid "Tried to log in as"
+msgstr "로그인 시도한 아이디"
+
+#: limit-login-attempts.php:719
+#, php-format
+msgid "%d lockout"
+msgid_plural "%d lockouts"
+msgstr[0] "%d회 로그인 잠금"
+msgstr[1] "%d회 차단"
+
+#: limit-login-attempts.php:743
+msgid "Cleared IP log"
+msgstr "IP 기록 비우기"
+
+#: limit-login-attempts.php:751
+msgid "Reset lockout count"
+msgstr "로그인 잠금 회수 초기화"
+
+#: limit-login-attempts.php:759
+msgid "Cleared current lockouts"
+msgstr "현재 로그인 잠금을 모두 초기화했습니다."
+
+#: limit-login-attempts.php:788
+msgid "Options changed"
+msgstr "옵션 변경을 저장했습니다."
+
+#: limit-login-attempts.php:799
+msgid "<strong>NOTE:</strong> Only works in Wordpress 2.7 or later"
+msgstr "<strong>NOTA:</strong> 워드프레스 2.7 이상에서만 작동합니다."
+
+#: limit-login-attempts.php:815
+#, php-format
+msgid "It appears the site is reached directly (from your IP: %s)"
+msgstr ""
+"프록시 등을 거치지 않고 곧장 접속한 것으로 보입니다. (현재 접속 아이피: %s)"
+
+#: limit-login-attempts.php:817
+#, php-format
+msgid ""
+"It appears the site is reached through a proxy server (proxy IP: %s, your "
+"IP: %s)"
+msgstr "프록시를 통해 접속한 걸로 보입니다. (프로시 IP: %s, 본래 IP: %s)"
+
+#: limit-login-attempts.php:825
+#, php-format
+msgid ""
+"<strong>Current setting appears to be invalid</strong>. Please make sure it "
+"is correct. Further information can be found <a href=\"%s\" title=\"FAQ"
+"\">here</a>"
+msgstr ""
+"<strong>설정에 문제가 있습니다</strong>. 바르게 고쳐 주세요. 관련 정보는 <a "
+"href=\"%s\" title=\"FAQ\">여기</a>서 찾아 볼 수 있습니다."
+
+#: limit-login-attempts.php:833
+msgid "Limit Login Attempts Settings"
+msgstr "Limit Login Attempts 설정"
+
+#: limit-login-attempts.php:834
+msgid "Statistics"
+msgstr "통계"
+
+#: limit-login-attempts.php:838
+msgid "Total lockouts"
+msgstr "총 로그인 잠금"
+
+#: limit-login-attempts.php:841
+msgid "Reset Counter"
+msgstr "카운터 재설정"
+
+#: limit-login-attempts.php:842
+#, php-format
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "마지막 재설정 이후 %d회 로그인 잠금이 있었습니다."
+msgstr[1] "마지막 재설정 이후 %d회 로그인 잠금이 있었습니다."
+
+#: limit-login-attempts.php:843
+msgid "No lockouts yet"
+msgstr "아직 로그인 잠금을 한 경우가 없습니다."
+
+#: limit-login-attempts.php:848
+msgid "Active lockouts"
+msgstr "현재 로그인 잠금 상태"
+
+#: limit-login-attempts.php:850
+msgid "Restore Lockouts"
+msgstr "Restablir bloqueigs"
+
+#: limit-login-attempts.php:851
+#, php-format
+msgid "%d IP is currently blocked from trying to log in"
+msgstr "%d IP는 현재 로그인 시도를 막아 뒀습니다."
+
+#: limit-login-attempts.php:857
+msgid "Options"
+msgstr "설정"
+
+#: limit-login-attempts.php:861
+msgid "Lockout"
+msgstr "로그인 잠금"
+
+#: limit-login-attempts.php:863
+msgid "allowed retries"
+msgstr "회 로그인 실패시"
+
+#: limit-login-attempts.php:864
+msgid "minutes lockout"
+msgstr "분 로그인 잠금"
+
+#: limit-login-attempts.php:865
+msgid "lockouts increase lockout time to"
+msgstr "회 로그인 잠금 후에는 로그인 잠금 시간을 늘립니다: "
+
+#: limit-login-attempts.php:865
+msgid "hours"
+msgstr "시간"
+
+#: limit-login-attempts.php:866
+msgid "hours until retries are reset"
+msgstr "시간 동안 로그인 잠금을 합니다."
+
+#: limit-login-attempts.php:870
+msgid "Site connection"
+msgstr "사이트 접속 방법"
+
+#: limit-login-attempts.php:876
+msgid "Direct connection"
+msgstr "직접 접속"
+
+#: limit-login-attempts.php:881
+msgid "From behind a reversy proxy"
+msgstr "reversy proxy를 통해"
+
+#: limit-login-attempts.php:887
+msgid "Handle cookie login"
+msgstr "쿠키 로그인 제어"
+
+#: limit-login-attempts.php:889
+msgid "Yes"
+msgstr "Yes"
+
+#: limit-login-attempts.php:889
+msgid "No"
+msgstr "No"
+
+#: limit-login-attempts.php:894
+msgid "Notify on lockout"
+msgstr "로그인 잠금 발생시 알려 주기"
+
+#: limit-login-attempts.php:896
+msgid "Log IP"
+msgstr "Log IP"
+
+#: limit-login-attempts.php:897
+msgid "Email to admin after"
+msgstr "다음이 발생하면 이메일로 알려 주기:"
+
+#: limit-login-attempts.php:897
+msgid "lockouts"
+msgstr "로그인 잠금"
+
+#: limit-login-attempts.php:902
+msgid "Change Options"
+msgstr "설정 변경"
+
+#: limit-login-attempts.php:910
+msgid "Lockout log"
+msgstr "로그인 잠금 기록"
+
+#: limit-login-attempts.php:914
+msgid "Clear Log"
+msgstr "기록 비우기"
+
+#. Plugin Name of an extension
+msgid "Limit Login Attempts"
+msgstr "로그인 시도 제한"
+
+#. Plugin URI of an extension
+msgid "http://devel.kostdoktorn.se/limit-login-attempts"
+msgstr "http://devel.kostdoktorn.se/limit-login-attempts"
+
+#. Description of an extension
+msgid "Limit rate of login attempts, including by way of cookies, for each IP."
+msgstr "쿠기와 각 IP를 포함한 로그인 시도 제한 비율."
+
+#. Author of an extension
+msgid "Johan Eenfeldt"
+msgstr "Johan Eenfeldt"
+
+#. Author URI of an extension
+msgid "http://devel.kostdoktorn.se"
+msgstr "http://devel.kostdoktorn.se"
