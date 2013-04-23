@@ -19,7 +19,6 @@
   */
 body
   font-family: $brand-face
-  word-wrap: break-word
 a
   color: $brand-color
   font-weight: bold
@@ -96,6 +95,8 @@ button, .btn, input
   margin-left: $base-spacing-unit / 2 +px 
 .content img, .wp-caption
   max-width: 100%!important
+.content
+  word-wrap: break-word
 
 // 반응형 비디오.
 .video-container
@@ -116,6 +117,8 @@ button, .btn, input
 .sidebar
   border-bottom: 1px solid lighten($brand-color, 40%) 
   padding-bottom: $base-spacing-unit +px
+  li
+    list-style-type: none
 .sidebar__one
   margin: 0
   padding: 0

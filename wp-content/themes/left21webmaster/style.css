@@ -2565,11 +2565,11 @@ html.flexbox {
  * any element using a handy helper class.
  */
 .brand {
-  font-family: Arial, "Apple SD Gothic Neo", "Malgun Gothic", "nanumgothic", sans-serif!important;
+  font-family: Arial, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "nanumgothic", "나눔고딕", sans-serif!important;
   color: #365699!important; }
 
 .brand-face {
-  font-family: Arial, "Apple SD Gothic Neo", "Malgun Gothic", "nanumgothic", sans-serif!important; }
+  font-family: Arial, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "nanumgothic", "나눔고딕", sans-serif!important; }
 
 .brand-color,
 .brand-colour {
@@ -2926,8 +2926,7 @@ html.flexbox {
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
 body {
-  font-family: Arial, "Apple SD Gothic Neo", "Malgun Gothic", "nanumgothic", sans-serif;
-  word-wrap: break-word; }
+  font-family: Arial, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "nanumgothic", "나눔고딕", sans-serif; }
 
 a {
   color: #365699;
@@ -3014,6 +3013,9 @@ button, .btn, #commentform #submit, input {
 .content img, .wp-caption {
   max-width: 100% !important; }
 
+.content {
+  word-wrap: break-word; }
+
 .video-container {
   max-width: 560px;
   margin: 0 auto; }
@@ -3034,6 +3036,8 @@ button, .btn, #commentform #submit, input {
 .sidebar {
   border-bottom: 1px solid #b6c5e5;
   padding-bottom: 24px; }
+  .sidebar li {
+    list-style-type: none; }
 
 .sidebar__one {
   margin: 0;
