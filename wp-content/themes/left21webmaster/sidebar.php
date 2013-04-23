@@ -1,3 +1,4 @@
+<!--[if lte IE 7]><div class=ie7-grid><![endif]-->
 <aside class="sidebar">
 	<div class="gw">
 		<div class="g one-third sidebar__column">
@@ -11,3 +12,4 @@
 		</div>
 	</div>
 </aside>
+<!--[if lte IE 7]></div><![endif]-->
