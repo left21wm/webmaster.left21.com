@@ -9,9 +9,6 @@ Author URI: http://gbaptista.com
 License: MIT
 */
 
-use \Michelf\Markdown;
-include dirname(__FILE__) . '/php-markdown/Michelf/Markdown.php';
-
 if(!class_exists('WP_Git_Embed')) {
 
   class WP_Git_Embed {
@@ -138,8 +135,9 @@ if(!class_exists('WP_Git_Embed')) {
             $links = TRUE;
             $format = 'sourcecode';
           } elseif($format == 'md' || $format == 'markdown') {
+            include dirname(__FILE__) . '/php-markdown/markdown.php';
             $links = TRUE;
-            $raw = Markdown::defaultTransform($raw);
+            $raw = Markdown($raw);
             $format = 'md';
           } else {
             $links = FALSE;
