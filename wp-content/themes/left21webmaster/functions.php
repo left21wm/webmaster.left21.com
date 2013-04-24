@@ -127,3 +127,5 @@ function lw_remove_rss_icon($url, $path){
 	}
 	return $url;
 }
+
+include 'functions-custom-post-type.php';
