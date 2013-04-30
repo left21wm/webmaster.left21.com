@@ -19,3 +19,4 @@ wp-content/themes/left21webmaster/.sass-cache
 .settings
 .buildpath
 *.DS_Store
+.idea
