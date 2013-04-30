@@ -2970,6 +2970,9 @@ button, .btn, #commentform #submit, input {
   margin-bottom: 24px;
   border-bottom: 1px solid #b6c5e5; }
 
+.home-li {
+  margin-bottom: 0.5em; }
+
 .site-footer {
   padding: 24px;
   clear: both;
